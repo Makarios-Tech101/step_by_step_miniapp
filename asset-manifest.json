@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/step_by_step_miniapp/static/css/main.b9be77ab.css",
+    "main.js": "/step_by_step_miniapp/static/js/main.11f2bd3a.js",
+    "index.html": "/step_by_step_miniapp/index.html",
+    "main.b9be77ab.css.map": "/step_by_step_miniapp/static/css/main.b9be77ab.css.map",
+    "main.11f2bd3a.js.map": "/step_by_step_miniapp/static/js/main.11f2bd3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9be77ab.css",
+    "static/js/main.11f2bd3a.js"
+  ]
+}
