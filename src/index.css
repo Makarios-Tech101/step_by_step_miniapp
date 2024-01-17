@@ -16,7 +16,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 15% auto;
+  margin: 10% auto;
   max-width: 400px;
   height: 200px;
   background-color: beige;
@@ -68,3 +68,13 @@ code {
   border: none;
 }
 
+.close {
+  position: absolute;
+  right: 31%;
+  top: 18%;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
