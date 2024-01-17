@@ -16,16 +16,19 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
-    if (step > 1) setStep(step-1);
+    // if (step > 1 ) setStep(step - 1);
+    if (step > 1) setStep((s) => s-1);
   }
 
   function handleNext() {
-    if (step < 3) setStep(step + 1);
+    // if (step < 3) setStep(step + 1);
+    if (step < 3) setStep((s) => s + 1);
   }
 
   return (
-    <div>
-      <button className="close" onClick={() => setIsOpen(!isOpen)}> X </button>
+    <>
+      {/* <button className="close" onClick={() => setIsOpen(!isOpen)}> X </button> */}
+      <button className="close" onClick={() => setIsOpen((is) => (!is))}> X </button>
      {isOpen && (
       <div className="step">
        <div className="numbers">
@@ -54,6 +57,6 @@ export default function App() {
        </div>
     </div>
     )}
-   </div>  
+   </>  
   );
 }
